@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/m2"
+>
+        
+
+    <LinearLayout
+        android:id="@+id/rankJoin_layout"
+        android:layout_width="280dp"
+        android:layout_height="389dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+		android:background="@drawable/joinlayout"        
+       >
+		
+       
+        <!-- textview로 이루어진 메뉴 구성 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:layout_width="170dp"
+            android:layout_height="67dp"
+            android:gravity="center"
+            android:textSize="70px"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/scorelayout"
+            android:id="@+id/ScoreView"
+            />
+            <!-- 학과메뉴 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/sub"/>
+
+                <Spinner
+                    android:id="@+id/subject_spin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  " />
+           </LinearLayout>
+
+            <!-- 이름부분 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/name" />
+
+                <EditText
+                    android:id="@+id/name_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:width="250px" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  " />
+            </LinearLayout>
+
+            <!-- 등록  버튼 레이아웃 -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/rankJoin_btn"
+                android:layout_marginTop="10dp"
+                android:layout_width="90dp"
+                android:layout_height="42dp"
+                android:background="@drawable/join"
+                android:layout_marginBottom="2dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <!-- 로그인 레이아웃 끝 -->
+
+</FrameLayout>

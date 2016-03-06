@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="app_name">I Quiz</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">I Quiz</string>
+
+    <string-array  name="subject_list">        
+       <item>인천대학교</item>
+       <item>국어국문</item>
+       <item>독어독문</item>
+       <item>일어일문</item>
+       <item>영어영문학과</item>
+       <item>불어불문학과</item>
+       <item>중어중문학과</item>
+       <item>수학</item>
+       <item>물리</item>
+       <item>화학</item><item>소비자아동</item><item>패션산업</item><item>해양</item><item>행정</item><item>정치외교</item><item>사회복지</item>
+       <item>창의인재개발</item><item>신문방송</item><item>문헌정보</item>
+       <item>법</item><item>기계시스템-기계,로봇</item>
+       <item>기계시스템-자동차</item><item>기계시스템-메카트로닉스</item>
+       <item>전자공학</item><item>신소재공학</item>
+       <item>산업경영</item><item>안정공학과</item><item>에너지화학공학</item>
+       <item>전기공학</item><item>컴퓨터공학부</item>
+       <item>임베디드시스템공학과</item><item>정보통신공학</item>
+       <item>경영</item><item>세무회계</item><item>동북아-중국통상</item>
+       <item>동북아-러시아통상</item><item>동북아-일본통상</item>
+       <item>동북아-미국통상</item><item>경제</item><item>무역</item>
+       <item>조형예술-한국화</item><item>조형예술-서양화</item>
+       <item>디자인학부</item><item>공연예술</item><item>체육</item>
+       <item>운동건강과학부</item><item>국어교육</item><item>영어교육</item>
+       <item>일어교육</item><item>수학교육</item><item>체육교육</item>
+       <item>유아교육</item><item>역사교육</item><item>윤리교육</item>
+       <item>도시행정</item><item>도시환경-건설환경</item>
+       <item>도시환경-환경공학</item><item>도시환경-도시건설공학</item>
+       <item>도시건축-건축학</item><item>도시건축-건축공학</item>
+       <item>도시건축-도시설계</item><item>생명과학-생명과학</item>
+       <item>생명과학-분자의생명</item><item>생명공학-생명공학</item>
+       <item>생명공학-나노바이오"</item>
+        
+    </string-array>
+    
+    
+</resources>

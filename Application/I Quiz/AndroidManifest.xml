@@ -1,0 +1,50 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="goodthinkers.ui.i.quiz"
+    android:versionCode="1"
+    android:versionName="16" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.GET_TASKS"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" 
+        android:largeHeap="true"
+        >
+        
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation = "portrait"
+             android:finishOnTaskLaunch="true"
+            android:label="@string/title_activity_main"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="goodthinkers.ui.i.quiz.QuizActivity"
+            android:screenOrientation = "portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.START"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="RankActivity"
+            android:screenOrientation = "portrait"></activity>
+        <activity android:name="SetActivity"
+            android:screenOrientation = "portrait"></activity>
+        <activity android:name="HelpActivity"
+            android:screenOrientation = "portrait"></activity>
+        <activity android:name="MadeByActivity"
+            android:screenOrientation = "portrait"></activity>
+        <activity android:name="RankJoin"
+            android:screenOrientation = "portrait"></activity>
+        <activity android:name="goodthinkers.ui.i.quiz.ReadyActivity"
+            android:screenOrientation = "portrait"></activity>
+    </application>
+
+</manifest>

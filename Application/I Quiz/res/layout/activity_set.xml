@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:gravity="center"
+    android:orientation="vertical" >
+   
+    
+     <TableLayout 
+        android:gravity="center"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:background="@drawable/setlayer"
+        >
+       <TextView  
+		    android:id="@+id/backgnd"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:layout_marginLeft="70dp"
+		    android:text="배경음 설정"
+		    android:textStyle="bold"
+		    android:textSize="30sp"
+			android:textColor="#d00000ff"
+			
+  	 	 />
+      <RadioGroup
+        android:id="@+id/a_onoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+      <RadioButton
+            android:id="@+id/a_on"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="on"
+        	android:textStyle="bold"
+        	android:checked="true"
+        	/>
+        <RadioButton
+            android:id="@+id/a_off"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textStyle="bold"
+        	android:text="off"
+        	
+        
+        	/>
+    </RadioGroup>
+        <TextView  
+            android:id="@+id/effect"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:layout_marginLeft="70dp"
+		    android:text="효과음 설정"
+		    android:textStyle="bold"
+		    android:textSize="30sp"
+			
+			android:textColor="#d0ff0000"
+    />
+     <RadioGroup
+         android:id="@+id/b_onoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <RadioButton
+            android:id="@+id/b_on"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="on"
+        	android:textStyle="bold"
+        	android:checked="true"
+        	
+        	/>
+        <RadioButton
+            android:id="@+id/b_off"
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="off"
+        	android:textStyle="bold"
+        	
+        
+        	/>
+    </RadioGroup>
+    
+    </TableLayout>
+</FrameLayout>
+   
